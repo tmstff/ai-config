@@ -76,7 +76,7 @@ Triggered when: investigating issues in INT or production environments.
 1. Read-only — no changes to remote environments under any circumstances.
 2. No changes to files tracked in the current repo.
 3. Don't try to reproduce the problem. Analyse using available skills:
-   - [aro-ai-tools skills](https://github.com/openshift-online/aro-ai-tools/tree/main/skills): `aro-hcp-env-info`, `aro-grafana`, `aro-kusto`, etc.
+   - [aro-ai-tools skills](https://github.com/openshift-online/aro-ai-tools/tree/main/ops/skills): `aro-ops`, `aro-grafana`, `aro-kusto`, etc.
    - `hcpctl` [must-gather](https://github.com/Azure/ARO-HCP/tree/main/tooling/hcpctl)
 4. Check access needed; state required user actions. Before accessing any remote machine → ask user for permission.
 5. No `kubectl exec`, no mutations — only `get` / `describe` / `logs` / `events`.
