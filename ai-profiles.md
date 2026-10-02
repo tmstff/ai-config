@@ -13,7 +13,7 @@ A **base layer** (always-on) + **5 situation profiles** (applied on top).
 ### Base Layer (Always-On)
 
 1. Verify assumptions before stating them. If an assumption cannot be verified, state it explicitly as an unverified assumption.
-2. Provide proof for every relevant statement. Proof = verifiable reference (URL, or local file path). If no proof exists, flag it explicitly.
+2. Provide proof for every relevant statement. Proof = verifiable reference (URL, or local file path) + query & results in case available (e.g. for kusto). Provide proof close to the statement, not in an extra section that contains the proofs for the whole document. If no proof exists, flag it explicitly.
 3. All local file references: paths relative to project root, with relevant line numbers where applicable.
 4. Verify cited references exist before including them.
 5. No padding — state findings directly.
